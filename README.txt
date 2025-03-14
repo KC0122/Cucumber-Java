@@ -3,7 +3,7 @@ How to execute the tests ?
 *********************************************************
 -Clone the repo
 -Open Intellije
--Click Main mneu
+-Click Main menu
 -Click on Run option
 -Click on Edit Configuration
 -Set Glue  to   stepDefinitions
@@ -61,3 +61,16 @@ git add src\test\java\Features\Registration.feature
 
 -git config --global user.email "sacakameel@yahoo.co.uk"
 -git config --global user.name "KC0122"
+
+
+
+
+
+*************************************************************
+Some of the errors and Lessons learned from them
+*************************************************************
+
+-When Creating the Feature file don't leave a space between the word Feature and : It  will throw an error
+-Make sure that -Set Glue  value is set to  stepDefinitions
+-Also Feature or Folder path is set as per below(Full path.Even though this is normally autopopulated)
+D:/Myprojects/Selenium-Cucumber-Java/Cucumber_Project1/src/test/java/Features/Registration.feature
