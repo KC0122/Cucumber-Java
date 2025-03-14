@@ -1,4 +1,24 @@
-"# Cucumber-Java"
+***********************************************************
+How to execute the tests ?
+*********************************************************
+Clone the repo
+Open Intellije
+Click Main mneu
+Click on Run option
+Click on Edit Configuration
+Set Glue  to   stepDefinitions
+Click Apply & OK
+Click on Build
+Click on Re-Build Project
+
+Once done, open the Feature file
+Click on Run button next to Feature: key word or Scenario key word
+
+All 4 steps of the Scenario should should pass!
+
+
+
+
 
 ********************************************************
 How to create a repo and push your project into GitHub
