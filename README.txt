@@ -74,3 +74,19 @@ Some of the errors and Lessons learned from them
 -Make sure that -Set Glue  value is set to  stepDefinitions
 -Also Feature or Folder path is set as per below(Full path.Even though this is normally autopopulated)
 D:/Myprojects/Selenium-Cucumber-Java/Cucumber_Project1/src/test/java/Features/Registration.feature
+-When creating a Test Runner file make sure you add below two parameters for @CucumberOptions.You don't need to give absolute path
+If you did, it might throw an error!
+@CucumberOptions(features="src/test/java/Features/Registration.feature",glue="stepDefinitions")
+
+-When running you might see below warnings.These are nothing to do with your tests so you can either ignore this..This is Javalogin framework, complaining about missing dependencies
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+-Or else you can fix it by copying the dependency from the Maven projects https://mvnrepository.com/
+ search for org.slf4j
+
+
+
+
+
+
