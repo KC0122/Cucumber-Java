@@ -15,12 +15,12 @@ public class newUserRegistrationsteps {
             driver = new ChromeDriver();
         }
 
-        @When("I provide the URL for registration page")
+        @When("I provide the URL for Home page of orangecrm.com")
         public void navigatetopage () {
             driver.get("https://www.orangecrm.com/");
         }
 
-        @Then("User Registration page is loaded")
+        @Then("Home page is loaded and checks if the text 'Orange CRM' exists or not")
         public void pageloadandseelogo () {
         var y="ORANGE CRM";
             var x=driver.findElement(By.cssSelector("h1.wow.fadeInDownBig.animated")).getText();

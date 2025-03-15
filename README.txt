@@ -1,8 +1,45 @@
+********************************
+What's this all about?
+************************************
+
+-This is a simple demo project for QAs who are keen to learn test automation skills.
+-This is a simple Test Automation project, developed using Java+Cucumber+Maven
+
+What does it test?
+-It will launch a browser,
+-will navigate to a website
+-and will check if a certain text exists or not(i.e in this case "ORANGE CRM")
+-If exists, it will "Pass" the test else it will "Fail" the test
+
+-Cucumber Feature File
+  For this project, I have ONLY added one feature file
+
+
+Scenario:
+    Given I Launch the browser
+    When  I provide the URL for Home page of orangecrm.com
+    Then  Home page is loaded and checks if the text 'Orange CRM' exists or not
+    And   Close browser
+
+    And it was implemented in the "newUserRegistrationsteps" class inside stepDefinitions folder
+
+-To run the test, simply open the TestRunner folder
+-And Right click on cucumberRunner
+-And click on Run cucumberRunner button
+
+-Wait for the magic to happen!!You should see the test results on the panel below(If you are using IntelliJ and if not, you should!)
+
+
+-In addition, below I have added ...lessons learned section, explaining the issues which one might encounter
+and possible solutions to prevent/solve/fix those issues!
+
+
+
 ***********************************************************
 How to execute the tests ?
 *********************************************************
 -Clone the repo
--Open Intellije
+-Open IntelliJ
 -Click Main menu
 -Click on Run option
 -Click on Edit Configuration
@@ -59,8 +96,8 @@ Then go back to the repo again
 git add src\test\java\Features\Registration.feature
 
 
--git config --global user.email "sacakameel@yahoo.co.uk"
--git config --global user.name "KC0122"
+-git config --global user.email "YOURemail@y...com"
+-git config --global user.name "XXXX"
 
 
 
