@@ -29,7 +29,6 @@ Scenario:
 
 -Wait for the magic to happen!!You should see the test results on the panel below(If you are using IntelliJ and if not, you should!)
 
-
 -In addition, below I have added ...lessons learned section, explaining the issues which one might encounter
 and possible solutions to prevent/solve/fix those issues!
 
@@ -55,8 +54,6 @@ All 4 steps of the Scenario should  pass!
 
 
 
-
-
 ********************************************************
 How to create a repo and push your project into GitHub
 ********************************************************
@@ -77,8 +74,8 @@ Go back to Github page and only copy the first 3 lines of instructions(Note:As p
 (you might have to press enter once to execute all of the above commands)
 
 Now make sure you give below 2 commands
--git config --global user.email "sacakameel@yahoo.co.uk"
--git config --global user.name "KC0122"
+-git config --global user.email "xxxxx@xxxxx.com"
+-git config --global user.name "xxx22"
 
 
 Then go back to the repo again
@@ -91,20 +88,15 @@ Then go back to the repo again
 -This might prompt you to login in to your personal account and authorise the request
 -Once done you will see "Read me" file  has been added to the repo
 
-
 --Now if you want to add further files you can give the below command with correct path names.
 git add src\test\java\Features\Registration.feature
-
 
 -git config --global user.email "YOURemail@y...com"
 -git config --global user.name "XXXX"
 
 
-
-
-
 *************************************************************
-Some of the errors and Lessons learned from them
+Some of the errors &lessons learned
 *************************************************************
 
 -When Creating the Feature file don't leave a space between the word Feature and : It  will throw an error
